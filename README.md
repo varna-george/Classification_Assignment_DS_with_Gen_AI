@@ -9,6 +9,7 @@ Key Components fulfilled:
 Loading and Preprocessing:
 
 ● Loaded the breat cancer dataset using the load_breast_cancer function from sklearn. ● Converted the dataset into a pandas DataFrame for easier handling. ● All the features are float, int and there are no categorical feature. ● No missing values found. ● Scaling is done only for  Logistic Regression, SVM and k-NN. 
+
 Logistic Regression: Scaling ensures that each feature contributes equally to the model’s learning process. 
 Support Vector Machine (SVM): SVM relies on distances and inner products → scaling is crucial to avoid bias from feature magnitude.
 k-Nearest Neighbors (k-NN): Since k-NN uses distance to find neighbors, scaling ensures that all features contribute equally to that distance. 
