@@ -25,6 +25,9 @@ Classifier Algorithm Implementation: Implemented the following classification al
 Models Evaluation and Comparison:
 
 SVM (0.98) → Highest accuracy; works great with scaling and non-linear boundary. [Top performance]
+
 Logistic Regression (0.97) → Strong linear model; great baseline.
+
 Random Forest (0.96) → Very reliable ensemble method.
+
 Decision Tree & k-NN (0.95) → Still good, but slightly less generalizable. [Lowest performance]
